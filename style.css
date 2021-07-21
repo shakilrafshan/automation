@@ -95,9 +95,49 @@ background-size: cover;
 .projects-2{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
-   
+    justify-content: space-between;  
 }
+.projects-2a{
+    width: 450px;
+    height: 450px;
+    background:url(./images/project2.png);
+   background-size: cover;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.projects-2b{
+    width: 450px;
+    height: 450px;
+    background:url(./images/project3.png);
+   background-size: cover;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.anim{
+    display: none;
+    
+}
+.projects-2a:hover .anim{
+    display: inline-block;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    padding: 5px 10px; 
+     
+}
+.projects-2b:hover .anim{
+    display: inline-block;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    width: 450px;
+    height: 450px;
+    padding: 5px 10px; 
+     
+}
+
+
+
 @media only screen and (max-width:688px){
     .banner h1{
        text-align: center;
@@ -127,9 +167,25 @@ background-size: cover;
     flex-direction: column;
     width: 100%;
 }
-.projects-2a img{ 
-    width: 100%;margin-top:15px;
+
+.projects-2a{
+    width: 100%;
+   
+    background:url(./images/project2.png);
+   background-size: cover;
+   border-radius: 10px;
+   overflow: hidden;
 }
+.projects-2b{
+    width: 100%;
+   margin-top: 10px;
+   margin: 10px ;
+    background:url(./images/project3.png);
+   background-size: cover;
+   border-radius: 10px;
+   overflow: hidden;
+}
+
 
 }
 
