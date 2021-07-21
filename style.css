@@ -173,17 +173,36 @@ background-size: cover;
    
     background:url(./images/project2.png);
    background-size: cover;
-   border-radius: 10px;
+   border-radius: 10px;background-position: center center;
    overflow: hidden;
 }
 .projects-2b{
     width: 100%;
    margin-top: 10px;
-   margin: 10px ;
+
     background:url(./images/project3.png);
    background-size: cover;
+   background-position: center center;
    border-radius: 10px;
    overflow: hidden;
+}
+.projects-2a:hover .anim{
+    display: inline-block;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    padding: 5px 10px; 
+     
+}
+.projects-2b:hover .anim{
+    display: inline-block;
+    background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+    border-radius: 10px;
+    width: 100%;
+    height: 450px;
+    padding: 5px 10px; 
+     
 }
 
 
@@ -191,8 +210,43 @@ background-size: cover;
 
 @media only screen and (min-width:688px) and (max-width:1045px){
     .projects-2{
-        flex-direction: column;
+        flex-direction: row;
         justify-items: center;
+       
+    }
+    .projects-2a{
+        width: 50%;
+       
+        background:url(./images/project2.png);
+       background-size: cover;
+       border-radius: 10px;
+       overflow: hidden;
+       margin: 0 5px;
+    }
+    .projects-2b{
+        width: 50%;
+      background:url(./images/project3.png);
+       background-size: cover;
+       border-radius: 10px;
+       overflow: hidden;
+       margin: 0 5px;
+    }
+    .projects-2a:hover .anim{
+        display: inline-block;
+        background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+        border-radius: 10px;
         width: 100%;
+        height: 450px;
+        padding: 5px 10px; 
+         
+    }
+    .projects-2b:hover .anim{
+        display: inline-block;
+        background: linear-gradient(308.85deg, rgba(66, 165, 245, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%);
+        border-radius: 10px;
+        width: 100%;
+        height: 450px;
+        padding: 5px 10px; 
+         
     }
 }
