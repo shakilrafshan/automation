@@ -136,7 +136,22 @@ background-size: cover;
      
 }
 
-
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-1{
+    justify-self: center;
+}
+.footer-2,.footer-3{
+    align-self: center;
+    justify-self: center;
+   
+}
+.footer-2 li,.footer-3 li{
+    list-style: none;
+   
+}
 
 @media only screen and (max-width:688px){
     .banner h1{
@@ -204,7 +219,10 @@ background-size: cover;
     padding: 5px 10px; 
      
 }
-
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
 
 }
 
