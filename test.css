@@ -91,13 +91,13 @@ text-decoration: none;
             order: 1;
         }
         .left h1{
-            font-size: 35px;
+            font-size: 25px;
         }
         .left div{
             text-align: center;
         }
 }
-@media only screen and (min-width:689px) and (max-width:1040px){
+@media only screen and (min-width:689px) and (max-width:1024px){
    
     .section-area{
         padding: 20px;
