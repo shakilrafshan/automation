@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+}
+.banner-section{
+    background-image: url(./images/blogbanner.png);
+    background-size: cover;
+    padding:100px 0;
+    color:black;
+}
+.featured-blog h2{
+    font-size: 48px;
+    color:#1F3F68;
+}
+.featured-blog img{
+    width: 100%;
+}
+.blog-excerpt i{
+    color: rgb(63, 63, 212);
+}
+
+@media only screen and (max-width:688px){
+    .featured-blog h2{
+        font-size:25px;
+        
+    }
+    .blog-excerpt {
+       justify-content: center;
+    }
+    
+}
+.blog h2{
+    font-size: 20px;
+}
+@media only screen and (min-width:688px) and (max-width:1024px){
+    .featured-blog h2{
+        font-size:30px;  
+    }
+    
+}
