@@ -78,7 +78,9 @@ text-decoration: none;
 }
 
 @media only screen and (max-width:688px){
-   
+   .title{
+       font-size:20px ;
+   }
     .section-area{
         padding: 20px;
     }
