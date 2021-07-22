@@ -29,8 +29,7 @@ section{
     box-shadow: 0 20px 100px 20px rgb(0 0 0 / 16%);
     transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
     padding: 100px 100px 100px 100px;
-    
-    
+  
 }
 .glass-section .right img{
     width: 100%;
@@ -69,4 +68,40 @@ section{
     background-color: #fff;
     color: #FC534D;
     transition: .5s;
+}
+
+
+@media only screen and (max-width:688px){
+   
+    .section-area{
+        padding: 20px;
+    }
+    .glass-section{
+       
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;}
+        .left{
+            order: 1;
+        }
+        .left h1{
+            font-size: 35px;
+        }
+        .left div{
+            text-align: center;
+        }
+}
+@media only screen and (min-width:689px) and (max-width:1040px){
+   
+    .section-area{
+        padding: 20px;
+    }
+    .glass-section{
+       
+        grid-template-columns: repeat(2,1fr);
+        padding: 20px;}
+       
+        .left h1{
+            font-size: 35px;
+        }
+        
 }
