@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.btn-1 a{
+text-decoration: none;
+}
+section{
+    background-image: url(./images/bgb.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-area{
+    padding: 150px;
+}
+   
+.glass-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: #FFF0;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF30;
+    box-shadow: 0 20px 100px 20px rgb(0 0 0 / 16%);
+    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
+    padding: 100px 100px 100px 100px;
+    
+    
+}
+.glass-section .right img{
+    width: 100%;
+}
+.left h1{
+ font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.left p{
+ font-size: 16px;
+ letter-spacing: 1.5px;
+ margin:10px 0;
+    
+}
+
+.left a{
+    margin-top:20px ;
+    text-decoration: none;
+    background-color: #fff;
+    background-color: #FC534D;
+    color: #FFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FC534D;
+    border-radius: 4px 4px 4px 4px;
+    padding: 12px 40px 12px 40px;
+    font-family: "Nunito",Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+}
+.left a:hover{
+    border:1px solid #FC534D ;
+    background-color: #fff;
+    color: #FC534D;
+    transition: .5s;
+}
