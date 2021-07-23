@@ -1,0 +1,20 @@
+.left-s h1{
+    font-size: 64px;
+    color: #202336;
+    margin-right: 24px;
+}
+.left-s p{
+    font-size: 24px;
+    color: #202336;
+    margin: 30px 0;
+}
+.title-2{
+    padding-left: 100px;
+}
+.title-2 h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+.title-2 p{
+    margin: 10px 0;
+}
