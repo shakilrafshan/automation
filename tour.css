@@ -1,3 +1,10 @@
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
 .left-s h1{
     font-size: 64px;
     color: #202336;
@@ -12,9 +19,13 @@
     padding-left: 100px;
 }
 .title-2 h1{
-    font-size: 34px;
+    font-size: 36px;
     font-weight: bold;
 }
 .title-2 p{
     margin: 10px 0;
+}
+.title-3 h1{
+    font-size: 36px;
+    font-weight: bold;
 }
